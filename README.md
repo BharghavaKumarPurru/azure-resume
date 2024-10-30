@@ -1,6 +1,11 @@
 
 # Azure Resume Project 🌐
 
+
+https://github.com/user-attachments/assets/07ef1132-138d-4759-98af-5c6c89ae92bf
+
+
+
 This repository contains the source code for a serverless resume website deployed using **Azure Services**. The project integrates **Azure Functions**, **Cosmos DB**, and **Azure CDN** to create a dynamic resume that tracks visitor counts in real-time.
 
 ## 📂 Project Structure
