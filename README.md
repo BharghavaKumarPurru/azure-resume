@@ -1,5 +1,5 @@
+# **Azure Resume Project 🌐**
 
-# Azure Resume Project 🌐
 
 
 https://github.com/user-attachments/assets/07ef1132-138d-4759-98af-5c6c89ae92bf
@@ -8,7 +8,9 @@ https://github.com/user-attachments/assets/07ef1132-138d-4759-98af-5c6c89ae92bf
 
 This repository contains the source code for a serverless resume website deployed using **Azure Services**. The project integrates **Azure Functions**, **Cosmos DB**, and **Azure CDN** to create a dynamic resume that tracks visitor counts in real-time.
 
-## 📂 Project Structure
+---
+
+## 📂 **Project Structure**
 
 ```
 azure-resume/
@@ -32,39 +34,39 @@ azure-resume/
 
 ---
 
-## 🚀 Getting Started
+## 🚀 **Getting Started**
 
 ### **Prerequisites**
-- **Azure Account**: Sign up [here](https://azure.microsoft.com/).
-- **Azure CLI**: Install from [here](https://docs.microsoft.com/cli/azure/install-azure-cli).
-- **Azure Functions Core Tools**: Install from [here](https://docs.microsoft.com/azure/azure-functions/functions-run-local).
+- **Azure Account**: [Sign up here](https://azure.microsoft.com/).
+- **Azure CLI**: [Install from here](https://docs.microsoft.com/cli/azure/install-azure-cli).
+- **Azure Functions Core Tools**: [Install here](https://docs.microsoft.com/azure/azure-functions/functions-run-local).
 - **Git**: Ensure Git is installed on your machine.
 
 ---
 
-## ⚙️ Setup
+## ⚙️ **Setup**
 
-### 1. Clone the repository
+### 1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/azure-resume.git
 cd azure-resume
 ```
 
-### 2. Deploy Backend API to Azure Functions
+### 2. **Deploy Backend API to Azure Functions**
 Navigate to the **backend/api** folder and deploy the Azure Function:
 ```bash
 cd backend/api
 func azure functionapp publish <your-function-app-name>
 ```
 
-### 3. Set up Frontend with Azure CDN
+### 3. **Set up Frontend with Azure CDN**
 - Go to your **Azure Portal** and create a **CDN profile**.
 - Link the CDN profile to a **static website** enabled in your **Azure Storage Account**.
 - Upload the contents of the **frontend** folder to the storage account.
 
 ---
 
-## 🛠️ Project Details
+## 🛠️ **Project Details**
 
 - **Backend**:  
   The backend contains an **Azure Function** that interacts with **Cosmos DB** to store and update the visitor count.
@@ -74,27 +76,25 @@ func azure functionapp publish <your-function-app-name>
 
 ---
 
-## 📝 License
+## 📝 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📧 Contact
+## 📧 **Contact**
 
 If you have any questions, feel free to reach out at **bhargavbhargav995@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/bharghavakumarpurru/).
-```
 
 ---
 
 ## **Backend `README.md` (backend/README.md)**
 
-```markdown
-# Backend - Azure Resume Project 🌐
+# **Backend - Azure Resume Project 🌐**
 
 This folder contains the backend code for the Azure Resume project. It includes an **Azure Function** that updates and retrieves the visitor count from **Cosmos DB**.
 
-## 📂 Structure
+## 📂 **Structure**
 
 ```
 backend/
@@ -113,7 +113,7 @@ backend/
 
 ---
 
-## ⚙️ How to Run Locally
+## ⚙️ **How to Run Locally**
 
 1. **Navigate to the API folder:**
    ```bash
@@ -138,9 +138,7 @@ backend/
 
 ---
 
-## 🚀 Deployment Instructions
-
-To deploy the function to Azure, follow these steps:
+## 🚀 **Deployment Instructions**
 
 1. **Login to Azure:**
    ```bash
@@ -154,7 +152,7 @@ To deploy the function to Azure, follow these steps:
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ **Technologies Used**
 
 - **Azure Functions**: Serverless backend.
 - **Cosmos DB**: Database for storing visitor counts.
@@ -163,24 +161,20 @@ To deploy the function to Azure, follow these steps:
 
 ---
 
-## 🧪 Testing
+## 🧪 **Testing**
 
 Run unit tests (if available) by navigating to the `tests/` directory and running:
 ```bash
 dotnet test
 ```
-```
-
----
 
 ## **Frontend `README.md` (frontend/README.md)**
 
-```markdown
-# Frontend - Azure Resume Project 🌐
+# **Frontend - Azure Resume Project 🌐**
 
 This folder contains the frontend code for the Azure Resume project. The frontend is a static website that displays a real-time visitor count using **JavaScript** and data from an **Azure Function**.
 
-## 📂 Structure
+## 📂 **Structure**
 
 ```
 frontend/
@@ -194,7 +188,7 @@ frontend/
 
 ---
 
-## 🚀 How to Deploy
+## 🚀 **How to Deploy**
 
 1. **Enable Static Website** on your **Azure Storage Account**:
    - Go to the **Storage Account** in the Azure Portal.
@@ -210,7 +204,7 @@ frontend/
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ **Technologies Used**
 
 - **HTML/CSS/JavaScript**: Frontend technologies.
 - **Azure CDN**: Content delivery for faster loading.
@@ -218,11 +212,7 @@ frontend/
 
 ---
 
-## 📧 Contact
+## 📧 **Contact**
 
-If you have any questions, feel free to reach out at **bharghava.kumar.purru@example.com** or connect on [LinkedIn](https://www.linkedin.com/in/bharghavakumarpurru/).
-```
-
----
-
-This structure ensures that each part of your project is well-documented. Make sure to update any placeholders (like `<your-function-app-name>`) with actual values. Let me know if you need further customization!
+If you have any questions, feel free to reach out at **bhargavbhargav995@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/bharghavakumarpurru/).
+`
